@@ -12,7 +12,7 @@ Many thanks to the Inside Elections team for providing this data to the public. 
 You don't really install anything. You run it. Make sure to load the virtual environment: 
 
 ```sh
-python -m venv myenv # call myenv whatever you like
+python -m venv myenv            # call myenv whatever you like
 pip install -r requirements.txt # install the dependencies from requirements.txt
 
 python main.py
