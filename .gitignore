@@ -1,0 +1,7 @@
+venv
+
+
+# out folder
+out/*
+
+__pycache__
