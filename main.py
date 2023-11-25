@@ -19,7 +19,6 @@ for rating in ratings:
     rating_data.append(dta)
 df = pd.DataFrame(rating_data)
 df.to_csv("out/ratings/presidential.csv", index=False)
-# print(df)
 
 
 
@@ -38,7 +37,6 @@ for rating in ratings:
     rating_data.append(dta)
 df = pd.DataFrame(rating_data)
 df.to_csv("out/ratings/house.csv", index=False)
-# print(df)
 
 
 
@@ -58,7 +56,6 @@ for rating in ratings:
     rating_data.append(dta)
 df = pd.DataFrame(rating_data)
 df.to_csv("out/ratings/senate.csv", index=False)
-# print(df)
 
 
 data = governor_ratings()
@@ -75,3 +72,4 @@ for rating in ratings:
     rating_data.append(dta)
 df = pd.DataFrame(rating_data)
 df.to_csv("out/ratings/governor.csv", index=False)
+
