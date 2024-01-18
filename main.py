@@ -1,9 +1,17 @@
+import os
 import pandas as pd
 from pprint import PrettyPrinter
 from utils.ratings import presidential_ratings, house_ratings, senate_ratings, governor_ratings
 
 pp = PrettyPrinter(indent=4)
 
+
+
+# create directory if it doesn't exist
+for p in ["out", "out/ratings"]:
+    if not os.path.isdir(p):
+        print(f"creating dir : {p}")
+        os.mkdir(p)
 
 data = presidential_ratings()
 ratings = data["race"]
